@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&family=Roboto:wght@400;700&display=swap');
+
+@media*(max-width: 1200px){
+  .container{
+    max-width: 1200px;
+  }
+}
+
+@media*(max-width: 992px){
+  .container{
+    max-width: 750px;
+  }
+}
+
+@media*(max-width: 767px){
+  .container{
+    max-width: none;
+  }
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family:'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+p{
+  font-family:'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul, li{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav{
+  display: flex;
+  padding-top: 5%;
+}
+
+.logo{
+  margin-right: 5%;
+}
+
+.menu{
+  display:flex;
+}
+
+.login{
+  border: 1px solid #000;
+  border-radius: 100px;
+  padding: 13px 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.login:hover{
+  background: #000;
+  color: #fff;
+  transition: all 0.8s ease;
+}
+
+.Talk{
+  border: 1px solid #000;
+  border-radius: 100px;
+  padding: 13px 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Talk:hover{
+  background: #000;
+  color: #fff;
+  transition: all 0.8s ease;
+}
+
+.menu li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  line-height: 16px;
+  color: #000;
+}
+
+.menu li{
+  margin-right: 15px;
+}
+
+.mainInfo{
+  display: flex;
+  margin-top: 5%;
+}
+
+.mainText{
+  padding-top:28px;
+}
+
+.mainHeadng{
+  font-size: 77px;
+}
+
+.text-head{
+  font-size: 20px;
+  line-height: 31px;
+  margin-top: 27px;
+  margin-bottom: 79px;
+}
+
+b{
+  font-family:'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+}
+
+.bold{
+  margin-bottom: 27px;
+}
+
+.btn{
+  border: 1px solid #000;
+  border-radius: 100px;
+  padding: 13px 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn:hover{
+  background: #000;
+  color: #fff;
+  transition: all 0.8s ease;
+}
+
+.home{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 126px;
+}
+
+.home-left{
+ width: 50%;
+ height: 280px;
+ padding-right: 100px;
+}
+
+.home-right h2{
+  display: block;
+  margin-bottom: 33px;
+  font-size: 57px;
+  line-height: 58px
+}
+
+.home-right p{
+  font-size: 20px;
+  line-height: 31px;
+}
+
+.why{
+  margin-top: 45px;
+}
+
+.why h2{
+  font-size: 58px;
+  line-height: 58px;
+  padding-top: 88px;
+  margin-bottom: 82px;
+}
+
+.content-boxs{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 71px;
+}
+
+.content-boxs h3{
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.content-boxs p{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.content-boxs img{
+width: 200px;
+Height: 150px;
+align-content: center;
+}
+
+/*.icons{
+  text-align: center;
+}*/
+.content-center{
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+/*.content-right{
+  padding-left: 45px;
+}*/
+
+.why-btn{
+  border: 1px solid #F7B2B7;
+  border-radius: 100px;
+  padding: 13px 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.why-btn:hover{
+  background: #F7B2B7;
+  color: #000;
+  transition: all 0.8s ease;
+}
+
+.background-pink{
+  background: url('../img/pink.jpg') no-repeat center top / cover;
+}
+
+  .plans{
+    margin-top: 126px;
+  }
+
+  .content-plans{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .plans h2{
+    padding-top: 88px;
+    padding-bottom: 82px;
+    padding-left: 0%;
+    font-size: 58px;
+    line-height: 58px;
+    font-style: normal;
+    font-weight: normal
+}
+
+.plans p{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.plans-left{
+padding-right: 45px;
+}
+
+.plans-center{
+  padding-right: 45px;
+}
+
+.brand{
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand p{
+    margin-top: 129px;
+    font-size: 27px;
+    line-height: 36px;
+}
+
+.wrapper{
+  margin-top: 113px;
+  display:grid;
+  grid-template-columns: 200px 200px 200px;/*repeat(3, 1fr);*/
+  grid-template-rows: 84px 84px 84px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+}
+
+.hub{
+ display: flex;
+ margin-top: 200px;
+}
+
+
+
+.text-hub{
+  padding-top: 100px;
+  margin-bottom: 303px;
+}
+
+.text-hub h2{
+  padding-bottom: 40px;
+  font-size: 58px;
+  line-height: 58px;
+  height: 58px;
+}
+
+.text-hub p{
+  font-size: 20px;
+  line-height: 31px;
+  padding-bottom:79px;
+}
+
+.hub-btn{
+  border: 1px solid #F7B2B7;
+  border-radius: 100px;
+  padding: 13px 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.hub-btn:hover{
+  background: #F7B2B7;
+  color: #000;
+  transition: all 0.8s ease;
+}
+
+.ready{
+  display: flex;
+  justify-content: space-between;
+  background-color: #8BD4D6;
+  margin-bottom: 108px;
+}
+
+.ready-left{
+  margin-top: 89px;
+  margin-left: 90px;
+}
+
+.ready h2{
+  font-size: 46px;
+  line-height: 56px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.ready-left p{
+  font-size: 20px;
+  line-height: 31px;
+  font-style: normal;
+  font-weight: normal;
+
+}
+
+.ready-right{
+  margin-top: 117px;
+  margin-right: 90px;
+  margin-bottom: 116px;
+}
+
+.ready-btn{
+  border: 1px solid #000;
+  border-radius: 100px;
+  padding: 13px 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ready-btn:hover{
+  background: #000;
+  color: #fff;
+  transition: all 0.8s ease;
+}
+
+footer{
+  background: #302E3F;
+}
+
+.logo-footer{
+  display: flex;
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+.logo-footer h3{
+  padding-top: 5px;
+  padding-left: 18px;
+  font-size: 28px;
+  line-height: 36px;
+  color: #FFF;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+h6{
+  color: #FFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.footer-info p {
+  color: #FFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px
+}
+
+.text-footer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 62px;
+  padding-bottom: 45px;
+  color: #FFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.text-info-footer{
+  margin-right: 40px;
+  margin-left: 20px;
+}
